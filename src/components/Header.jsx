@@ -16,10 +16,12 @@ function Header() {
 
         <div className="d-flex">
           <button type="button" className="btn btn-link px-3 me-2">
-            Home
+            <a href="">Home</a>
+            
           </button>
           <button type="button" className="btn btn-link px-3 me-2">
-            Cities
+            <a href="">Cities</a>
+            
           </button>
 
         </div>

@@ -1,14 +1,14 @@
+
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Layout from "./components/Layout";
+import Layout from "./layouts/Layout";
+import Contactos from "./pages/Contactos";
 
 function App() {
   return (
     <>
-      <Header />
-      <Layout />
-      <Footer />
+  <Layout>
+    <Contactos/>
+  </Layout>
     </>
   );
 }
