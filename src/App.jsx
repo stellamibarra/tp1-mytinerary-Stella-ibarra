@@ -1,14 +1,12 @@
-
 import "./App.css";
 import Layout from "./layouts/Layout";
-import Contactos from "./pages/Contactos";
-
+import About from './pages/About'
 function App() {
   return (
     <>
-  <Layout>
-    <Contactos/>
-  </Layout>
+      <Layout>
+       <About/>
+      </Layout>
     </>
   );
 }
